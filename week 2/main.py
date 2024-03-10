@@ -40,7 +40,7 @@ def WriteSillyStatement(input: int) -> None:
   print("Start Running")
 
 
-# AskUserForNumber()
+AskUserForNumber()
 
 # Problem 4 (Challenge)
 
