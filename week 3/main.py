@@ -75,7 +75,8 @@ def LowerHigher():
         lives = lives - 1
         print("You got ", lives, "left")
       elif int(user_input) == value:
-        print("Congratulation Yuo won, You Found the number 👑")
+        print("Congratulation You won, You Found the number 👑")
+        break
     else:
       print("Please Only input numbers")
       continue
