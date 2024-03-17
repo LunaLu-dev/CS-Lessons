@@ -1,3 +1,4 @@
+from random import randint
 # 1
 x = 5
 if x > 4:
@@ -8,11 +9,9 @@ else:
 # 2
   
 def indedtifyBlahaj(input: str) -> bool:
-  if (input.__contains__('blahaj')):
-    return True
-  else:
-    return False
+  return input.__contains__('blahaj')
   
+print("Please Input The Super Secret Password")
 user_input = input()
 print(indedtifyBlahaj(user_input))
 
@@ -41,8 +40,6 @@ sum_numbers([
 ])
 
 # 4
-from random import randint
-
 fortyTwoCounter = 0
 
 while(fortyTwoCounter < 6):
