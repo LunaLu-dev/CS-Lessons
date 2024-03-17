@@ -66,11 +66,11 @@ def LowerHigher():
     print("please guess a number between 1 and 100")
     user_input = input()
     if user_input.isnumeric():
-      if int(user_input) > value:
+      if int(user_input) < value:
         print("The value you are seeking is higher")
         lives = lives - 1
         print("You got ", lives, "left")
-      elif int(user_input) < value:
+      elif int(user_input) > value:
         print("The Value you are seeking is lower")
         lives = lives - 1
         print("You got ", lives, "left")
