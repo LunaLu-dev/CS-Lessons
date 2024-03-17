@@ -81,6 +81,7 @@ def LowerHigher():
       continue
 
   if(lives == 0):
+    print("The number was ", value)
     print("You Lost, Wanna try again? y/n")
     awnser = input()
     if awnser == 'y' or awnser == 'yes':
