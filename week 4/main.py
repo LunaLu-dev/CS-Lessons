@@ -10,8 +10,6 @@ class Cat:
 my_weird_cat = Cat()
 my_weird_cat.meow()
 
-#test
-
 #2
 
 class Blahaj:
